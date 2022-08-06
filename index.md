@@ -33,7 +33,9 @@ Model 3. Lightgbm based models
 
 ### Hyperparameter Tuning
 
-Since the goal is to increase the r2 score, we can use large max_bin, smaller learning_rate, larger num_leaves to increase the accuracy. Here learning rate = 0.01 is used to tune the model.
+Since the goal is to increase the r2 score, we can use larger num_leaves to increase the accuracy. Here num_leaves = 100 is used to tune the model. 
+
+R2 score is enhanced to 0.8424 if num_leaves is set to be 100
 
 ### Results
 
