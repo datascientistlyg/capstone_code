@@ -16,6 +16,8 @@ I did analysis using the dataset downloaded from [Kaggle](https://www.kaggle.com
 
 ### Metrics
 
+R2 Score is widely used as the key metrics of multifactor strategy, hence the goal of this script is to find ways to increase the r2score
+
 ### EDA
 
 ### Modeling
