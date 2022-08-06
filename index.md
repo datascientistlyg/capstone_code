@@ -21,6 +21,10 @@ R2 Score is widely used as the key metrics of multifactor strategy, hence the go
 ### EDA
 "bid ask spread","bid gap","ask gap", "bid size imbalance", "ask size imbalance" are added to the features. Following is the feature importance graph for reference.
 
+![image](https://user-images.githubusercontent.com/109795677/183243910-9ff51c43-2556-4529-a45a-4eb8521b65ed.png)
+
+From the graph above, 'log_return', 'wap', 'bid_ask_spread' are the top three most important features.
+
 ### Modeling
 
 Model 1. Naive prediction used by optiver as example
@@ -53,4 +57,7 @@ From the picture above, we can see that lightgbm model in green dots is more con
 New features such as "bid ask spread","bid gap","ask gap", "bid size imbalance", "ask size imbalance" with linear regression model can increase the R2 score and models like lightgbm could further increase the R2 score.
 
 ### Improvements
+1) More features could be find to increase the r2 score
+2) Deep Learning based AI model could be applied to increase the r2 score
+
 [Source Code](https://github.com/datascientistlyg/capstone_code).
