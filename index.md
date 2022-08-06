@@ -45,12 +45,12 @@ R2 score is enhanced to 0.8424 if num_leaves is set to be 100
 
 The picture above show the naive prediction scatter graph provided by Optiver. The R2 score is 0.628
 
-#### New factors which enhance the in sample R2 score by linear regression
+#### Add new factors which enhance the in sample R2 score by linear regression
 ![image](https://user-images.githubusercontent.com/109795677/183234460-e088c74e-81e9-4943-9a67-6b69ce17f4a9.png)
 
 The graph shows that the orange dots based on linear regression with new factors("bid ask spread","bid gap","ask gap", "bid size imbalance", "ask size imbalance") are more converge than the blue ones which is provided by naive prediction. The R2 score of linear regression is 0.775
 
-#### lightgbm further increases the in sample R2 score?
+#### Use lightgbm to further increase the in sample R2 score
 ![image](https://user-images.githubusercontent.com/109795677/183235170-82164117-1096-4a91-9ca1-1330c051e737.png)
 
 From the picture above, we can see that lightgbm model in green dots is more converge than the linear model. The R2 score of lightgbm regression is 0.817 
