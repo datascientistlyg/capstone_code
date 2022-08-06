@@ -1,42 +1,36 @@
 # capstone_code
 ## Project Description:
-This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
+This project includes a blog at https://github.com/datascientistlyg/capstone/blob/main/index.md to show how new factors and machine learning algo could increase the R2 score. 
 
-This application will greatly impact the community, and this application will help people or organization in an event of a disaster. This model could be used to classify messages and messages could to be sent to the appropriate agencies.  
+This application could be used to as a basic script for further development to enhance the r2score of different AI models which are attracted to quantitative hedge funds.  
+
+## Dataset Download:
+Download dataset from https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data, and unzip to directory "optiver-realized-volatility-prediction" 
 
 ## File Description:
-1. models directory: train_classifier.py
-2. data directory: process_data.py
-3. app directory: run.py
+optiver_dataset_r2score.py : The script is used to calculate the naive r2score provided by optiver, linear regression model based r2score and lgb model based r2score
 
 ## File architecture:
-- app
+- optiver-realized-volatility-prediction
 
-|- run.py  # Flask file that runs app
+|- book_train.parquet  # Contains "book train" orderbook parquet dataset
 
-- data
+|- book_test.parquet  # Contains "book test" orderbook parquet dataset
 
-|- disaster_categories.csv  # data to process 
+|- trade_train.parquet  # Contains "trade train" orderbook parquet dataset
 
-|- disaster_messages.csv  # data to process
+|- trade_test.parquet  # Contains "trade test" orderbook parquet dataset
 
-|- process_data.py
+|- train.csv  # target(train) label y dataset
 
-- models
+|- test.csv  # target(test) label y dataset
 
-|- train_classifier.py
+- optiver_dataset_r2score.py
 
 - README.md
 
 ## Run Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Go to `app` directory: `cd app`
+1. Download dataset from https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data, and unzip to directory "optiver-realized-volatility-prediction" 
 
-3. Run your web app: `python run.py`
-
-4. Click the `PREVIEW` button to open the homepage
+2. Run your scripy: `python optiver_dataset_r2score.py`
