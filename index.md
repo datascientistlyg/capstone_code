@@ -1,16 +1,28 @@
 
 ## Exploring new factors and machine learning algorithm to increase the R2 score
 
-I am really interested in trading industry and always interested what causing the change of the rate of return and R2 score.
+### Problem Introduction
+I am really interested in trading industry and always interested what causing the change of the rate of return and R2 score the key indicator of strategy performance.
 
 ![image](https://user-images.githubusercontent.com/109795677/183232847-91323839-b36f-4d0d-a5d6-76a95892cbab.png)
 *) Picture took from (https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/overview)
 
-I did analysis using the dataset downloaded from [Kaggle](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data). And I found the answers to the following questions:
+### Strategy to solve the problem
+I did analysis using the dataset downloaded from [Kaggle](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data). And I solve the prolem through found the answers to the following questions:
 
 1. What is the R2 score of naive prediction provided by Optiver?
 2. Which new factors could enhance the in sample R2 score by linear regression?
 3. Can lightgbm further increase the in sample R2 score?
+
+### Metrics
+
+### EDA
+
+### Modeling
+
+### Hyperparameter Tuning
+
+### Results
 
 ### What is the R2 score of naive prediction provided by Optiver?
 
@@ -31,4 +43,5 @@ From the picture above, we can see that lightgbm model in green dots is more con
 ### Conclusion
 New features such as "bid ask spread","bid gap","ask gap", "bid size imbalance", "ask size imbalance" with linear regression model can increase the R2 score and models like lightgbm could further increase the R2 score.
 
+### Improvements
 [Source Code](https://github.com/datascientistlyg/capstone_code).
