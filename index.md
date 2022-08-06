@@ -23,7 +23,7 @@ R2 Score is widely used as the key metrics of multifactor strategy, hence the go
 
 ![image](https://user-images.githubusercontent.com/109795677/183243910-9ff51c43-2556-4529-a45a-4eb8521b65ed.png)
 
-From the graph above, 'log_return', 'wap', 'bid_ask_spread' are the top three most important features.
+From the graph above, column0: 'log_return', column1:'wap', column3:'bid_gap' are the top three most important features.
 
 ### Modeling
 
