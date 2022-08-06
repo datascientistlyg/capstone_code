@@ -34,3 +34,7 @@ optiver_dataset_r2score.py : The script is used to calculate the naive r2score p
 1. Download dataset from https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data, and unzip to directory "optiver-realized-volatility-prediction" 
 
 2. Run your scripy: `python optiver_dataset_r2score.py`
+
+## Reference:
+1. Basic functions and algos such as "log_return", "realized_volatility", "realized_volatility_per_time_id", "past_realized_volatility_per_stock" are provided by optiver.
+2. The head picture on blog is from https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data
