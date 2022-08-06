@@ -24,6 +24,9 @@ R2 Score is widely used as the key metrics of multifactor strategy, hence the go
 
 ### Hyperparameter Tuning
 
+Since the goal is to increase the r2 score, we can use large max_bin, smaller learning_rate, larger num_leaves to increase the accuracy.
+
+
 ### Results
 
 ### What is the R2 score of naive prediction provided by Optiver?
